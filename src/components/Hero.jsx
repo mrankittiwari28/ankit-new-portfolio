@@ -5,6 +5,7 @@ export default function Hero() {
   return (
     <section className="hero" id="top">
       <div className="hero__text">
+        <p className="hero__availability"><span aria-hidden="true"></span>{profile.availability}</p>
         <p className="hero__tag">{profile.tagline}</p>
         <h1 className="hero__name">
           <span>{profile.firstName}</span>

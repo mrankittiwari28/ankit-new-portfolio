@@ -14,6 +14,8 @@ export const profile = {
   email: "ankittiwari285202@gmail.com",
   phone: "+91 90052 27425",
   location: "Noida, Uttar Pradesh, India",
+  availability: "Open to work",
+  preferredRoles: "Full Stack · Frontend · AI",
   resumeUrl: "/Ankit_Tiwari_Resume.pdf", // resume PDF ko public/ folder me isi naam se rakho
 };
 
@@ -30,10 +32,11 @@ export const about = [
 ];
 
 export const facts = [
-  { label: "Height", value: "174 cm" },
   { label: "Education", value: "B.Tech, Information Technology" },
   { label: "Languages", value: "Hindi, English" },
   { label: "Based in", value: "Noida, India" },
+  { label: "Availability", value: "Open to opportunities" },
+  { label: "Preferred roles", value: "Full Stack · Frontend · AI" },
 ];
 
 export const skillGroups = [
@@ -50,7 +53,7 @@ export const skillGroups = [
 export const experience = [
   {
     period: "Nov 2025 - Present",
-    role: "Frontend Developer",
+    role: "Full-Stack Developer",
     company: "Delhi Academy of Medical Sciences (DAMS), Noida",
     points: [
       "Developed and maintained a production React.js admin dashboard for courses, users, quizzes, reports, notifications, payments and academic content, improving admin task completion time by 30%.",
@@ -64,7 +67,7 @@ export const experience = [
   },
   {
     period: "Jul 2024 - Jun 2025",
-    role: "MERN Stack Developer",
+    role: "Full-Stack Developer",
     company: "DUCAT, Noida",
     points: [
       "Built full-stack applications with MongoDB, Express.js, React.js and Node.js, with responsive, cross-browser compatible interfaces.",
@@ -80,55 +83,66 @@ export const projects = [
     tag: "Project Management SaaS · In development",
     stack: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
     detail:
-      "A full-stack project management platform where teams organize projects, manage tasks and collaborate from one workspace. Goals: secure authentication, project and task workflows, team and member management, role-based permissions, REST API architecture and a responsive dashboard.",
+      "A full-stack project management platform where teams organize projects, manage tasks and collaborate from one workspace.",
+    impact: "Planned features: secure authentication, role-based permissions, project workflows and real-time collaboration.",
     link: "",
+    github: "",
   },
   {
     title: "eMedicoz Admin Dashboard",
     tag: "Production application",
     stack: ["React.js", "Redux Toolkit", "Ant Design", "REST APIs", "Socket.IO"],
     detail:
-      "Enterprise admin dashboard for a medical learning platform: Course Management, Reports, Notifications, Recordings, Transactions, Refunds and Content Management. 50+ REST APIs integrated, with advanced filters, pagination, role-based UI, real-time updates and SonarQube fixes.",
+      "Enterprise admin dashboard for a medical learning platform: Course Management, Reports, Notifications, Recordings, Transactions, Refunds and Content Management.",
+    impact: "Integrated 50+ APIs, improved admin task completion by 30%, and resolved 20+ security findings.",
     link: "",
+    github: "",
   },
   {
     title: "Resume Builder",
     tag: "Web application",
     stack: ["React.js", "JavaScript", "Tailwind CSS"],
     detail:
-      "A clean resume builder with structured, editable sections for personal details, education, skills, experience and projects, built from reusable components with a responsive layout.",
+      "A clean resume builder with structured, editable sections for personal details, education, skills, experience and projects.",
+    impact: "Built with reusable components and a print-friendly, mobile-responsive interface.",
     link: "",
+    github: "",
   },
   {
     title: "E-Commerce Website",
     tag: "Full stack application",
     stack: ["React.js", "Node.js", "Express.js", "MongoDB"],
     detail:
-      "An online shopping app with dynamic product listing and details, backend API integration, CRUD operations and a responsive interface on a structured architecture.",
+      "An online shopping app with dynamic product listing and details, backend API integration and CRUD operations.",
+    impact: "Implemented a structured full-stack architecture with reusable React components.",
     link: "",
+    github: "",
   },
   {
     title: "Google Gemini Clone",
     tag: "Personal project",
     stack: ["React.js", "API integration"],
     detail:
-      "A Gemini-inspired AI chat interface with prompt handling, reusable components, state management, loading and error states, and a chat-like experience.",
+      "A Gemini-inspired AI chat interface with prompt handling, reusable components and chat-style interactions.",
+    impact: "Practiced API integration, loading/error states and modern conversational UI patterns.",
     link: "",
+    github: "",
   },
   {
     title: "Personal Portfolio Website",
     tag: "Personal project",
     stack: ["React.js", "JavaScript", "Tailwind CSS"],
     detail:
-      "A responsive portfolio showcasing my skills, experience, projects and contact details, optimized for desktop and mobile.",
+      "A responsive portfolio showcasing my skills, experience, projects and contact details.",
+    impact: "Designed for desktop and mobile with focused recruiter-friendly information architecture.",
     link: "",
+    github: "",
   },
 ];
 
 export const achievements = [
-  { year: "Cert.", title: "MERN Stack Development, DUCAT", detail: "Completed professional MERN stack certification." },
+  { year: "Cert.", title: "Full-Stack Development, DUCAT", detail: "Completed professional full-stack certification." },
   { year: "DSA", title: "200+ LeetCode problems solved", detail: "Data Structures and Algorithms practice." },
-  { year: "2025", title: "20+ SonarQube security issues resolved", detail: "Introduced reusable sanitized components at DAMS." },
 ];
 
 export const education = {
